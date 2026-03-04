@@ -1,0 +1,19 @@
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.container{
+    width: 1920px;
+    max-width: 1920px;
+    padding: 0 50px;
+    margin: auto;
+}
