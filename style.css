@@ -40,7 +40,7 @@
 .header__nav{
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 50px;
 }
 
 .header__nav--link{
@@ -52,6 +52,10 @@
     color: #fff;
 }
 
+.header__nav--link:hover{
+    color: #627cff;
+}
+
 .btn{
     padding: 15px 25px;
     border-radius: 50px;
@@ -59,4 +63,130 @@
     background-color: #fff;
     font-size: 15px;
     font-weight: 600;
+}
+
+.btn:active{
+    background-color: #627cff;
+    color: #fff;
+    box-shadow: 0 0 20px #ffffff42;
+}
+
+
+
+
+/* box */
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex3{
+    text-align: center;
+}
+
+.box__pargarf{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+
+.box__h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 38px;
+}
+
+.box__h1:hover{
+    color: #627cff;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 25px;
+}
+
+.flex__paragrf{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.login{
+    width: 930px;
+    height: 75.75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 65px;
+}
+
+.ff{
+    margin-left: 20px;
+}
+
+.login__paragrf{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.login__btn{
+    padding: 20px 77px;
+    border: none;
+    border-radius: 60px;
+    background-color: #627cff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.box__pargarf2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.flex2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex4{
+    width: 155px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: #ffffff2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 8px;
+
+}
+
+.flex2__parargf{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.flex4:hover{
+    background-color: #405FF2;
+    transform: scale(1.07);
 }
