@@ -17,3 +17,38 @@
     padding: 0 50px;
     margin: auto;
 }
+
+.imgs{
+    width: 100%;
+    height: 945px;
+    background-image: url("img/1c7374919fa419ec2abcb24a9fc1024787f16aaa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* header */
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__nav--link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size:15px ;
+    font-weight: 500;
+    color: #fff;
+}
+
