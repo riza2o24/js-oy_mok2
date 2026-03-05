@@ -244,3 +244,8 @@
     justify-content: center;
     background-color: #fff;
 }
+
+
+.brend__cards:hover{
+    box-shadow: 0 0 20px #00000021;
+}
