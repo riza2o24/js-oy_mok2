@@ -200,7 +200,7 @@
     align-items: center;
     justify-content: center;
     background-color: #F9FBFC;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .brend__text{
@@ -277,8 +277,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 25px;
 }
 
 
@@ -298,15 +298,25 @@
     color: #405FF2;
 }
 
+.brend__text--h3:hover{
+    color: #405FF2;
+}
+
+
+.cars2__flex--text--p:hover{
+    color: #405FF2;
+}
+
 .cars2__flex--text--p{
     font-size: 16px;
     font-weight: 500;
 }
 
 .card2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 40px;
     margin-top: 50px;
 }
 
@@ -315,15 +325,21 @@
 }
 
 .card2--box{
-    width: 328px;
-    height: 453px;
+    width: 330px;
+    height: 445px;
     background-color: #fff;
     border: 2px solid #E9E9E9;
     border-radius: 16px;
 }
 
+
+.card2--box:hover{
+    box-shadow: 0 0 34px #00000021;
+    transform: scale(1.04);
+}
+
 .paragrf{
-    padding: 30px;
+    padding: 20px 30px;
 }
 
 .paragrf__text{
