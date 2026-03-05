@@ -248,4 +248,131 @@
 
 .brend__cards:hover{
     box-shadow: 0 0 20px #00000021;
+    transform: scale(1.02);
 }
+
+
+
+
+
+
+
+
+/* CARD2 */
+
+.cars2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card22{
+    width: 1430px;
+
+}
+
+.cars2__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.cars2__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cars2__flex--text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.brend__text--h3:hover{
+    color: #405FF2;
+}
+
+.cars2__flex--text--p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.imgss{
+    border-radius: 16px 16px 0 0;
+}
+
+.card2--box{
+    width: 328px;
+    height: 453px;
+    background-color: #fff;
+    border: 2px solid #E9E9E9;
+    border-radius: 16px;
+}
+
+.paragrf{
+    padding: 30px;
+}
+
+.paragrf__text{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.paragrf__p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.flex5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.f{
+    text-align: center;
+}
+
+.flex5__paragrf{
+    font-size: 14px;
+    font-weight: 400;
+    color: #050B20;
+}
+
+
+.flex6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.flex6__paragrf{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #405FF2;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
