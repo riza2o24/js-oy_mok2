@@ -486,6 +486,7 @@
     font-weight: 700;
 }
 
+
 .milliyon__p{
     margin-top: 5px;
     font-size: 15px;
@@ -508,6 +509,10 @@
     margin-bottom: 80px;
 }
 
+.choose__text:hover{
+    color: #405FF2;
+}
+
 .choose__flex{
     display: flex;
     align-items: center;
@@ -526,3 +531,145 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+
+
+/* Popular */
+.Popular{
+    width: 100%;
+    height: 784px;
+    background-color: #050B20;
+    padding: 130px 220px;
+    margin-bottom: 100px;
+}
+
+.Popular__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.Popular__text{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.Popular__text:hover{
+    color: #405FF2;
+}
+
+.Popular__paragrf{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.Popular__flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Popular__flex2--flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Popular__flex2--li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.flexs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.qwert{
+    border-radius: 16px 0 0 16px;
+}
+
+
+.flexs__card{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 660px;
+    height: 273px;
+    background-color: #FFFFFF12;
+    border-radius: 16px;
+}
+
+.flexs__card:hover{
+    box-shadow: 0 0 30px #5b5ef560;
+    transform: scale(1.02);
+}
+
+.flexx__pargafr2{
+    padding: 20px 30px;
+}
+
+
+.flexx__pargafr2--text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.flexx__pargafr2--p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.flexx__pargafr2--p2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.flexx__pargafr2--text2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.flexx__pargafr2--span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.flexss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.rew{
+    margin-right: 25px;
+}
+
+
