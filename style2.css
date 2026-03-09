@@ -388,9 +388,8 @@
 
 .ggg{
     width: 800px;
-    height: 693px;
-    background-color: #EEF1FB;
-    border-radius: 0 16px 16px 0;
+    height: 600px;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -402,6 +401,7 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 25px;
+    color: #fff;
 }
 
 
@@ -410,6 +410,7 @@
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 25px;
+    color: #fff;
 }
 
 .flexx{
@@ -427,8 +428,9 @@
 
 .ggg__btn{
     width: 170px;
-    height: 80px;
-    background-color: #405FF2;
+    height: 60px;
+    border: 2px solid #fff;
+    background: none;
     border-radius: 12px;
     padding: 20px 25px;
     display: flex;

@@ -870,10 +870,11 @@
 
 /* footer */
 .footer{
-    width: 1920px;
+    
 }
 
 .imgssss{
+    width: 1820px;
     position: absolute;
     margin-top: -70px;
 }
