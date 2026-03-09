@@ -729,6 +729,142 @@
 }
 
 
+
+/* card3 */
 .card3{
-    
+    padding: 0 210px;
+    margin-bottom: 130px;
 }
+
+.card3__texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card3__texts--h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.card3__texts--h3:hover{
+    color: #405FF2;
+}
+
+.card3__texts--p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card3__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card3__cards--p2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    gap: 16px;
+}
+
+.card3__cards--text{
+    width: 428px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card3__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card3__boxs{
+    width: 685px;
+    height: 393px;
+    border-radius: 16px;
+    padding: 80px;
+    background-color: #E9F2FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card3__box--h3{
+    width: 233px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+.card3__box--p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #050B20;
+    width: 355px;
+}
+
+.card3__box--btn{
+    padding: 19px 26px;
+    border: none;
+    border-radius: 12px;
+    background-color: #405FF2;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.card3__box--btn2{
+    padding: 19px 26px;
+    border: none;
+    border-radius: 12px;
+    background-color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.wee{
+    width: 685px;
+    height: 393px;
+    border-radius: 16px;
+    padding: 80px;
+    background-color:#FFE9F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card3__box--btn2:active{
+    background-color: #ff98c6;
+    transform: scale(1.02);
+}
+
+.card3__box--btn:active{
+    background-color: #1b41fd;
+    transform: scale(1.02);
+}
+
+
+.card3__box--img{
+    margin-top: 120px;
+}
+
+
