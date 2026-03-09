@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+     <!-- Demo styles -->
+  <style>
+
+    .swiper {
+      width: 100%;
+      height: 550px;
+      border-radius: 16px;
+      margin-bottom: 50px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        
+        <header class="header">
+            <a href="index.html"><img src="img/logo black.png" alt="logo"></a>
+
+            <nav>
+                <ul class="header__nav">
+                    <!-- 1 -->
+                    <li>
+                        <a class="header__nav--link" href="#">Home <img src="icon/Border.png" alt="icon"></a>
+                    </li>
+
+                    <!-- 2 -->
+                    <li>
+                        <a class="header__nav--link" href="#">Listings <img src="icon/Border.png" alt="icon"></a>
+                    </li>
+
+                    <!-- 3 -->
+                    <li>
+                        <a class="header__nav--link" href="#">Blog <img src="icon/Border.png" alt="icon"></a>
+                    </li>
+
+                    <!-- 4 -->
+                    <li>
+                        <a class="header__nav--link" href="index2.html">Pages <img src="icon/Border.png" alt="icon"></a>
+                    </li>
+
+
+                    <!-- 5 -->
+                    <li>
+                        <a class="header__nav--link" href="#">About<img src="icon/Border.png" alt="icon"></a>
+                    </li>
+
+
+                    <!-- 6 -->
+                    <li>
+                        <a class="header__nav--link" href="#">Contact<img src="icon/Border.png" alt="icon"></a>
+                    </li>
+
+                    <!-- 7 -->
+                    <li>
+                        <a class="header__nav--link" href="#"><img src="icon/Vector (7).png" alt="icon"> Sign in</a>
+                    </li>
+
+                    <button class="btn">Submit Listing</button>
+                </ul>
+            </nav>
+
+            
+        </header>
+
+
+        <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/rs-slides → rs-slide.png" alt="img"></div>
+      <div class="swiper-slide"><img src="img/3c208489fa581f2b65a93d07621253a9210f3d8e.jpg" alt="img"></div>
+      <div class="swiper-slide"><img src="img/5527067eca25aa7aee38985bbf7c9e6cc48514dc.jpg" alt="img"></div>
+      <div class="swiper-slide"><img src="img/4602ced7c3faa04635c9b6802f935a1619d3f39d.jpg" alt="img"></div>
+      <div class="swiper-slide"><img src="img/f333523bec121d452f167e1f8b71256e4e01b459.jpg" alt="img"></div>
+      <div class="swiper-slide"><img src="img/90a4f6cf5cd9f1fe06f0d9b68424e8f829e3b2d8.jpg" alt="img"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+
+        <!-- card -->
+        <div class="cars2">
+            <div>
+                <div class="card22">
+                <div class="cars2__flex dd">
+                    <h3 class="brend__text--h3">The Most Searched Cars</h3>
+
+                </div>
+
+                <div class="cars2__flex dd">
+                    <div class="cars2__flex--text">
+                        <p class="cars2__flex--text--p">In Stock</p>
+                        <p class="cars2__flex--text--p">New Cars</p>
+                        <p class="cars2__flex--text--p">Used Cars</p>
+                    </div>
+
+                    
+                </div>
+
+                <div class="card2">
+
+                    <!-- 1 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container.png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container (1).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 3 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="icon/Container (2).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 4 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container (3).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="card3__box">
+
+                <!-- 1 -->
+                <div class="card3__boxs">
+                    <div>
+                        <h4 class="card3__box--h3">Are You Looking For a Car ?</h4>
+
+                        <p class="card3__box--p">We are committed to providing our customers with exceptional service.</p>
+
+                        <button class="card3__box--btn">Get Started <img src="icon/Vector (15).png" alt=""></button>
+                    </div>
+                    
+                    <img class="card3__box--img" src="icon/electric-car.svg.png" alt="electric-car">
+                </div>
+
+                <!-- 2 -->
+                <div class="card3__box wee">
+                    <div>
+                        <h4 class="card3__box--h3">Do You Want to Sell a Car ?</h4>
+
+                        <p class="card3__box--p">We are committed to providing our customers with exceptional service.</p>
+
+                        <button class="card3__box--btn2">Get Started <img src="icon/Vector (15).png" alt=""></button>
+                    </div>
+                    
+                    <img class="card3__box--img" src="icon/electric-car2.svg.png" alt="electric-car">
+                </div>
+        </div>
+
+        <!-- card -->
+        <div class="cars2">
+            <div>
+                <div class="card22">
+                <div class="cars2__flex">
+                    <h3 class="brend__text--h3">Explore All Vehicles</h3>
+
+                    <p class="brend__text--pargarf">View All <img src="icon/Vector.svg" alt="icon"></p>
+                </div>
+
+
+                <div class="card2">
+
+                    <!-- 1 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container.png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container (1).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 3 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="icon/Container (2).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 4 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container (3).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- hero -->
+        <div class="hero">
+            <img src="img/Background (1).png" alt="imgs">
+            <div class="ggg">
+                <div>
+                    <h2 class="ggg__text">Get A Fair Price For Your Car Sell To Us Today</h2>
+                    <p class="ggg__paragrf">We are committed to providing our customers with exceptional service, competitive pricing, and a wide range of.</p>
+
+                    <div class="flexx">
+                        <img src="icon/Background (2).png" alt="icon">
+
+                        <p class="flexx__pargafr">We are the UK’s largest provider, with more patrols in more places</p>
+                    </div>
+
+                    <div class="flexx">
+                        <img src="icon/Background (2).png" alt="icon">
+
+                        <p class="flexx__pargafr">We are the UK’s largest provider, with more patrols in more places</p>
+                    </div>
+
+                    <div class="flexx">
+                        <img src="icon/Background (2).png" alt="icon">
+
+                        <p class="flexx__pargafr">We are the UK’s largest provider, with more patrols in more places</p>
+                    </div>
+
+                    <div class="ggg__btn">
+                        <p class="ggg__btn--paragrf">Get Started</p>
+
+                        <img class="ggg__img" src="icon/Vector (15).png" alt="Vector">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="milliyon">
+            <!-- 1 -->
+            <div class="milliyon__flex">
+                <h4 class="milliyon__h4">836M</h4>
+
+                <p class="milliyon__p">CARS FOR SALE</p>
+            </div>
+
+             <!-- 2 -->
+            <div class="milliyon__flex">
+                <h4 class="milliyon__h4">738M</h4>
+
+                <p class="milliyon__p">DEALER REVIEWS</p>
+            </div>
+
+             <!-- 3 -->
+            <div class="milliyon__flex">
+                <h4 class="milliyon__h4">100M</h4>
+
+                <p class="milliyon__p">VISITORS PER DAY</p>
+            </div>
+
+
+             <!-- 4 -->
+            <div class="milliyon__flex">
+                <h4 class="milliyon__h4">238M</h4>
+
+                <p class="milliyon__p">VERIFIED DEALERS</p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- card -->
+        <div class="cars2 ">
+            <div>
+                <div class="card22">
+                <div class="cars2__flex dd">
+                    <h3 class="brend__text--h3">Upcoming Cars</h3>
+
+                    
+                </div>
+
+
+                <div class="card2">
+
+                    <!-- 1 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container.png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container (1).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 3 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="icon/Container (2).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 4 -->
+                    <div class="card2--box">
+                        <img class="imgss"  src="img/Container (3).png" alt="Container">
+
+                        <div class="paragrf">
+                            <h3 class="paragrf__text">Ford Transit – 2021</h3>
+
+                            <p class="paragrf__p">4.0 D5 PowerPulse Momentum 5dr AW…</p>
+
+                            <hr>
+
+                            <div class="flex5">
+                                <div class="f">
+                                    <img  src="icon/Vector (11).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">2500 Miles</p>
+                                </div>
+
+                                 <div class="f">
+                                    <img  src="icon/Vector (13).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Diesel</p>
+                                </div>
+
+
+                                 <div class="f">
+                                    <img src="icon/Vector (12).png" alt="Vector">
+
+                                    <p class="flex5__paragrf">Manual</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="flex6">
+                                <h4 class="flex6__text">$22,000</h4>
+
+                                <p class="flex6__paragrf">View Details <img src="icon/Vector (14).png" alt="Vector"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- card3 -->
+        <div class="card3">
+            <div class="card3__texts">
+                <h3 class="card3__texts--h3">Latest Blog Posts</h3>
+
+                <p class="card3__texts--p">View All <img src="icon/Vector.svg" alt="Vector"></p>
+            </div>
+
+            <div class="card3__cards">
+                <!-- 1 -->
+                <div class="card3__cards--card">
+                    <img src="img/Container (8).png" alt="container">
+
+                        <p class="card3__cards--p2">admin November    <span class="card3__cards--p2">22, 2023</span></p>
+
+                    <h3 class="card3__cards--text">2024 BMW ALPINA XB7 with exclusive details, extraordinary</h3>
+                </div>
+
+                <!-- 2 -->
+                <div class="card3__cards--card">
+                    <img src="img/Container (9).png" alt="container">
+
+                     <p class="card3__cards--p2">admin November    <span class="card3__cards--p2">22, 2023</span></p>
+
+                    <h3 class="card3__cards--text">2024 BMW ALPINA XB7 with exclusive details, extraordinary</h3>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="card3__cards--card">
+                    <img src="img/Container (10).png" alt="container">
+
+                     <p class="card3__cards--p2">admin November    <span class="card3__cards--p2">22, 2023</span></p>
+
+                    <h3 class="card3__cards--text">2024 BMW ALPINA XB7 with exclusive details, extraordinary</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- brend -->
+        <div class="brend">
+            <div>
+            <div class="brend__text container">
+                <div class="brend__text--text">
+                    <h3 class="brend__text--h3">Explore Our Premium Brands</h3>
+
+                    <p class="brend__text--pargarf">Show All Brands <img src="icon/Vector.svg" alt="icon"></p>
+                </div>
+
+                <!-- moshinani logolari -->
+                <div class="brend__card">
+                    <!-- 1 -->
+                    <div class="brend__cards">
+                        <img src="icon/07.png" alt="07">
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="brend__cards">
+                        <img src="icon/08.png" alt="07">
+                    </div>
+
+
+                    <!-- 3 -->
+                    <div class="brend__cards">
+                        <img src="icon/09.png" alt="07">
+                    </div>
+
+
+
+                    <!-- 4 -->
+                    <div class="brend__cards">
+                        <img src="icon/10.png" alt="07">
+                    </div>
+
+
+
+                    <!-- 5 -->
+                    <div class="brend__cards">
+                        <img src="icon/11 (2).png" alt="07">
+                    </div>
+
+
+                    <!-- 6 -->
+                    <div class="brend__cards">
+                        <img src="icon/12.png" alt="07">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div>
+                <div class="hr"></div>
+            <div class="footer__input">
+                <div>
+                    <h3 class="footer__input--text">Join CarHut</h3>
+                    <h4 class="footer__input--text2">Receive pricing updates, shopping tips & more!</h4>
+                </div>
+
+
+                <div class="footer__input--input">
+                        <input class="inputs" placeholder="Your email address" type="text">
+
+                        <button class="footer__input--input--btn">Sign Up</button>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+            <div class="footer__text">
+                <!-- 1 -->
+                <ul>
+                    <li class="footer__text--ul--boss">Company</li>
+                    <li class="footer__text--ul--li">About Us</li>
+                    <li class="footer__text--ul--li">Blog</li>
+                    <li class="footer__text--ul--li">Services</li>
+                    <li class="footer__text--ul--li">FAQs</li>
+                    <li class="footer__text--ul--li">Terms</li>
+                    <li class="footer__text--ul--li">Contact Us</li>
+                </ul>
+
+                <!-- 2 -->
+                <ul>
+                    <li class="footer__text--ul--boss">Quick Links</li>
+                    <li class="footer__text--ul--li">Get in Touch</li>
+                    <li class="footer__text--ul--li">Help center</li>
+                    <li class="footer__text--ul--li">Live chat</li>
+                    <li class="footer__text--ul--li">How it works</li>
+                </ul>
+
+
+                <!-- 3 -->
+                <ul>
+                    <li class="footer__text--ul--boss">Our Brands</li>
+                    <li class="footer__text--ul--li">Toyota</li>
+                    <li class="footer__text--ul--li">Porsche</li>
+                    <li class="footer__text--ul--li">Audi</li>
+                    <li class="footer__text--ul--li">BMW</li>
+                    <li class="footer__text--ul--li">Ford</li>
+                    <li class="footer__text--ul--li">Nissan</li>
+                    <li class="footer__text--ul--li">Peugeot</li>
+                    <li class="footer__text--ul--li">Volkswagen</li>
+                </ul>
+
+
+                <!-- 4 -->
+                <ul>
+                    <li class="footer__text--ul--boss">Vehicles Type</li>
+                    <li class="footer__text--ul--li">Sedan</li>
+                    <li class="footer__text--ul--li">Hatchback</li>
+                    <li class="footer__text--ul--li">SUV</li>
+                    <li class="footer__text--ul--li">Hybrid</li>
+                    <li class="footer__text--ul--li">Electric</li>
+                    <li class="footer__text--ul--li">Coupe</li>
+                    <li class="footer__text--ul--li">Truck</li>
+                    <li class="footer__text--ul--li">Convertible</li>
+                </ul>
+
+                <div>
+                    <h3 class="footer__text--h3">Our Mobile App</h3>
+
+                    <img  src="img/133.png" alt="Vector">
+                    <img class="imgsss" src="img/134.png" alt="Vector">
+
+                    <h3 class="footer__text--h3">Connect With Us</h3>
+
+                    <img src="icon/List.png" alt="List">
+                </div>
+            </div>
+            
+            <div class="hr"></div>
+            <div class="footer__flex">
+                <p class="footer__flexx">© 2025 exemple.com. All rights reserved.</p>
+                <p class="footer__flexx">Terms & Conditions  Privacy Notice</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
