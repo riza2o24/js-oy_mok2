@@ -31,6 +31,7 @@
     position: sticky;
     top: 0;
     margin-bottom: 40px;
+    background-color: #fff;
 }
 
 
@@ -71,66 +72,37 @@
 }
 
 
+
+
 /* box */
 
 .box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 100px;
 }
 
-.flex3{
+.box__text{
     text-align: center;
-}
-
-.box__pargarf{
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 40px;
-    margin-top: 150px;
-}
-
-.box__h1{
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 700;
-    color: #fff;
-    margin-bottom: 38px;
+    margin-bottom: 35px;
 }
 
-.box__h1:hover{
-    color: #627cff;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 28px;
-    margin-bottom: 25px;
-}
-
-.flex__paragrf{
-    font-size: 16px;
-    font-weight: 500;
-    color: #fff;
-}
-
-.login{
-    width: 930px;
-    height: 75.75px;
+.box__flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 100px;
-    background-color: #fff;
-    padding: 10px;
-    margin-bottom: 65px;
 }
 
-.ff{
-    margin-left: 20px;
+.box__flex--card{
+    text-align: center;
 }
+
+.box__flex--card--p{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 
 .login__paragrf{
     display: flex;
