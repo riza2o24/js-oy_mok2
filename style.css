@@ -540,7 +540,6 @@
     height: 784px;
     background-color: #050B20;
     padding: 130px 220px;
-    margin-bottom: 100px;
 }
 
 .Popular__flex{
@@ -673,3 +672,58 @@
 }
 
 
+
+/* hero2 */
+
+.hero2{
+    width: 100%;
+    height: 800px;
+    background-color: #F9FBFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.hero2__texts{
+    display: flex;
+    align-items: center;
+    gap: 470px;
+    margin-bottom: 60px;
+}
+
+.hero2__texts--h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero2__texts--p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero2__box{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+
+.hero2__box--h6{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 14px;
+}
+
+.hero2__box--p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.hero2__box--h3{
+    width: 780px;
+    font-size: 26px;
+    font-weight: 700;
+}
