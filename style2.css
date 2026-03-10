@@ -160,6 +160,41 @@
     transform: scale(1.07);
 }
 
+/* hero2 */
+.hero2{
+    width: 100%;
+    height: 720px;
+    background-color: #F9FBFC;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 0 0 ;
+}
+
+
+.hero2__text{
+    width: 366px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero2__flex{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 55px;
+}
+
+.hero2__flex--text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.hero2__flex--p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #050B20;
+}
 
 /* brend */
 .brend{
