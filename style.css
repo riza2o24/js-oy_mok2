@@ -5898,11 +5898,11 @@
     .login{
         margin: auto;
         margin-bottom: 40px;
-        width: 400px;
+        width: 380px;
     }   
 
     .login__btn{
-        padding: 20px 40px;
+        padding: 20px 30px;
     }
 
     .brend{
