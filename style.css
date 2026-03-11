@@ -5363,6 +5363,10 @@
         max-width: 450px;
 
     }
+    .card3__cards--card{
+        margin: auto;
+    }
+
 
     .brend__text--pargarf{
         display: none;
@@ -5683,6 +5687,10 @@
 
     }
 
+    .card3__cards--card{
+        margin: auto;
+    }
+
     .brend__text--pargarf{
         display: none;
     }
@@ -5707,7 +5715,7 @@
     }
 
     .card3{
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     .imgssss{
@@ -5717,7 +5725,7 @@
     }
 
     .box__h1{
-        font-size: 40px;
+        font-size: 37px;
     }
 
     .header__nav{
@@ -5766,14 +5774,14 @@
     }
 
     .card3__boxs{
-        width: 380px;
+        width: 360px;
         padding: 50px 40px;
         margin: auto;
     }
 
     .wee{
         margin: auto;
-        width: 380px;
+        width: 360px;
         padding: 50px 40px;
         margin-top: 40px;
     }
@@ -5961,7 +5969,7 @@
     }
 
     .ggg{
-        width: 400px;
+        width: 380px;
         height: 600px;
         margin: auto;
         margin-bottom: 80px;
@@ -5969,7 +5977,7 @@
     }
 
     .hg{
-        width: 400px;
+        width: 380px;
         display: flex;
         margin: auto;
         border-radius: 16px;
