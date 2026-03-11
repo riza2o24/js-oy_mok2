@@ -1056,3 +1056,2018 @@
     color: #fff;
     
 }
+
+
+
+
+@media(max-width:1450px){
+    .container{
+        padding: 0px;
+        width: 1450px;
+        max-width: 1450px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -60px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+    }
+
+    .qweew{
+        width: 400px;
+    }
+
+    .card3__cards--text{
+        width: 400px;
+    }
+
+    .card3__boxs{
+        width: 600px;
+        padding: 80px 40px;
+    }
+
+    .wee{
+        width: 600px;
+        padding: 80px 40px;
+    }
+
+    .card3__box--p{
+        width: 350px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+
+@media(max-width:1400px){
+    .container{
+        padding: 0 ;
+        width: 1400px;
+        max-width: 1400px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -50px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+    }
+
+    .qweew{
+        width: 400px;
+    }
+
+    .card3__cards--text{
+        width: 400px;
+    }
+
+    .card3__boxs{
+        width: 600px;
+        padding: 80px 40px;
+    }
+
+    .wee{
+        width: 600px;
+        padding: 80px 40px;
+    }
+
+    .card3__box--p{
+        width: 350px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+}
+
+
+
+@media(max-width:1350px){
+    .container{
+        padding: 0px;
+        width: 1350px;
+        max-width: 1350px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -50px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 400px;
+    }
+
+    .card3__cards--text{
+        width: 400px;
+    }
+
+    .card3__boxs{
+        width: 600px;
+        padding: 80px 40px;
+    }
+
+    .wee{
+        width: 600px;
+        padding: 80px 40px;
+    }
+
+    .card3__box--p{
+        width: 350px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:1300px){
+    .container{
+        padding: 0 ;
+        width: 1300px;
+        max-width: 1300px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -50px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 350px;
+    }
+
+    .card3__cards--text{
+        width: 300px;
+    }
+
+    .card3__boxs{
+        width: 550px;
+        padding: 80px 40px;
+    }
+
+    .wee{
+        width: 550px;
+        padding: 80px 40px;
+    }
+
+    .card3__box--p{
+        width: 350px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+}
+
+
+@media(max-width:1250px){
+    .container{
+        padding: 0px;
+        width: 1250px;
+        max-width: 1250px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 350px;
+    }
+
+    .card3__cards--text{
+        width: 300px;
+    }
+
+    .card3__boxs{
+        width: 550px;
+        padding: 80px 40px;
+    }
+
+    .wee{
+        width: 550px;
+        padding: 80px 40px;
+    }
+
+    .card3__box--p{
+        width: 350px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:1200px){
+    .container{
+        padding: 0 ;
+        width: 1200px;
+        max-width: 1200px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -50px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+
+    .qweew{
+        width: 350px;
+    }
+
+    .card3__cards--text{
+        width: 300px;
+    }
+
+    .card3__boxs{
+        width: 500px;
+        padding: 80px 40px;
+    }
+
+    .wee{
+        width: 500px;
+        padding: 80px 40px;
+    }
+
+    .card3__box--p{
+        width: 300px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }  
+    
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+
+@media(max-width:1150px){
+    .container{
+        padding: 0px;
+        width: 1150px;
+        max-width: 1150px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 300px;
+    }
+
+    .card3__cards--text{
+        width: 300px;
+    }
+
+    .card3__boxs{
+        width: 500px;
+        padding: 80px 40px;
+    }
+
+    .wee{
+        width: 500px;
+        padding: 80px 40px;
+    }
+
+    .card3__box--p{
+        width: 300px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:1100px){
+    .container{
+        padding: 0 ;
+        width: 1100px;
+        max-width: 1100px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 300px;
+    }
+
+    .card3__cards--text{
+        width: 300px;
+    }
+
+    .card3__boxs{
+        width: 450px;
+        padding: 50px 40px;
+    }
+
+    .wee{
+        width: 450px;
+        padding: 50px 40px;
+    }
+
+    .card3__box--p{
+        width: 220px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+}
+
+
+
+@media(max-width:1050px){
+    .container{
+        padding: 0px;
+        width: 1050px;
+        max-width: 1050px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 300px;
+    }
+
+    .card3__cards--text{
+        width: 300px;
+    }
+
+    .card3__boxs{
+        width: 450px;
+        padding: 50px 40px;
+    }
+
+    .wee{
+        width: 450px;
+        padding: 50px 40px;
+    }
+
+    .card3__box--p{
+        width: 220px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+}
+
+
+@media(max-width:1000px){
+    .container{
+        padding: 0 ;
+        width: 1000px;
+        max-width: 1000px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 250px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+    }
+
+    .wee{
+        width: 400px;
+        padding: 50px 40px;
+    }
+
+    .card3__box--p{
+        width: 220px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+
+@media(max-width:950px){
+    .container{
+        padding: 0px;
+        width: 950px;
+        max-width: 950px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 250px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+    }
+
+    .wee{
+        width: 400px;
+        padding: 50px 40px;
+    }
+
+    .card3__box--p{
+        width: 220px;
+    }
+
+    .card3__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:900px){
+    .container{
+        padding: 0 ;
+        width: 900px;
+        max-width: 900px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 250px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .card3__boxs{
+        width: 700px;
+        padding: 50px 80px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 700px;
+        padding: 50px 80px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 220px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        width: 880px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+

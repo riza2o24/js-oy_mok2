@@ -1326,19 +1326,19 @@
     .login{
         width: 880px;
     }   
-
+/* 
     .brend__text{
         width: 0;
         display: flex;
         justify-content: center;
-    }
+    } */
 
-    .brend__card{
+    /* .brend__card{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
         gap: 40px;
-    }
+    } */
 
     .brend__text--text{
         display: none;
@@ -1347,20 +1347,13 @@
     /* card2 */
     .card2{
         justify-content: center;
-        display: grid;
-        grid-template-columns: repeat(2,350px);
-        grid-template-rows: repeat(2,1fr);
-        gap: 40px;
+        gap: 15px;
     }
 
     .fd{
         display: none;
     }
 
-    .cars2__flex{
-        justify-content: center;
-        gap: 340px;
-    }
 
     /* hero */
     .hero{
@@ -1379,13 +1372,13 @@
         border-radius: 16px;
         margin-bottom: 50px;
     }
-
+/* 
     .milliyon{
         display: grid;
         gap: 80px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
-    }
+    } */
 }
 
 
@@ -1464,10 +1457,7 @@
     }
 
     .brend__card{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(2,1fr);
-        gap: 40px;
+        gap: 20px;
     }
 
     .brend__text--text{
@@ -1476,11 +1466,9 @@
 
     /* card2 */
     .card2{
-        justify-content: center;
-        display: grid;
-        grid-template-columns: repeat(2,350px);
-        grid-template-rows: repeat(2,1fr);
-        gap: 40px;
+        display: flex;
+
+        gap: 10px;
     }
 
     .fd{
@@ -1488,8 +1476,8 @@
     }
 
     .cars2__flex{
-        justify-content: center;
-        gap: 340px;
+        margin: 30px;
+        justify-content: space-between;
     }
 
     /* hero */
@@ -1510,12 +1498,6 @@
         margin-bottom: 50px;
     }
 
-    .milliyon{
-        display: grid;
-        gap: 80px;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
 
 }
 
@@ -1577,9 +1559,10 @@
     }
 
     /* hero2 */
-    .flexs{
-        display: block;
+    .flexs__card{
+        width: 620px;
     }
+
 
     .hero2{
         height: auto;
@@ -1607,9 +1590,8 @@
 
     /* choose */
     .choose__flex{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+        
+        gap: 20px;
     }
 
     /* brend */
@@ -1648,7 +1630,7 @@
         display: grid;
         grid-template-columns: repeat(2,350px);
         grid-template-rows: repeat(2,1fr);
-        gap: 40px;
+        gap: 100px;
     }
 
     .fd{
@@ -1678,12 +1660,12 @@
         margin-bottom: 50px;
     }
 
-    .milliyon{
+    /* .milliyon{
         display: grid;
         gap: 80px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
-    }
+    } */
 }
 
 
@@ -3268,6 +3250,2751 @@
         gap: 80px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:850px){
+    .container{
+        padding: 0 ;
+        width: 850px;
+        max-width: 850px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 700px;
+        padding: 50px 80px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 700px;
+        padding: 50px 80px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 220px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 20px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 500px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+@media(max-width:800px){
+    .container{
+        padding: 0 ;
+        width: 800px;
+        max-width: 800px;
+
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 700px;
+        padding: 50px 80px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 700px;
+        padding: 50px 80px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 220px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 20px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 500px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:750px){
+    .container{
+        padding: 0 ;
+        width: 750px;
+        max-width: 750px;
+
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 400px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 20px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 500px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 500px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:700px){
+    .container{
+        padding: 0 ;
+        width: 700px;
+        max-width: 700px;
+
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .Popular{
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 180px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 400px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 20px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 500px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 500px;
+    }   
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 340px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg{
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:650px){
+    .container{
+        padding: 0 ;
+        width: 650px;
+        max-width: 650px;
+
+    }
+
+    .card3__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .box__h1{
+        font-size: 50px;
+    }
+
+    .header__nav{
+        gap: 4px;
+    }
+
+    .btn{
+        font-size: 14px;
+    }
+
+
+    .Popular{
+        display: none;
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 400px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 20px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 500px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 500px;
+    }   
+
+    .brend{
+        height: auto;
+    }
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        grid-template-rows: repeat(4,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg__text{
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .ggg__paragrf{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .flexx__pargafr{
+        width: 300px;
+    }
+
+    .ggg{
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        width: 400px;
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:600px){
+    .container{
+        padding: 0 ;
+        width: 600px;
+        max-width: 600px;
+
+    }
+
+    .card3__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .box__h1{
+        font-size: 50px;
+    }
+
+    .header__nav{
+        gap: 4px;
+    }
+
+    .btn{
+        font-size: 14px;
+    }
+
+
+    .Popular{
+        display: none;
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 400px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 10px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 500px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 500px;
+    }   
+
+    .brend{
+        height: auto;
+    }
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        grid-template-rows: repeat(4,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg__text{
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .ggg__paragrf{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .flexx__pargafr{
+        width: 300px;
+    }
+
+    .ggg{
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        width: 400px;
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+
+
+
+@media(max-width:550px){
+    .container{
+        padding: 0 ;
+        width: 550px;
+        max-width: 550px;
+
+    }
+
+    .card3__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .box__h1{
+        font-size: 50px;
+    }
+
+    .header__nav{
+        gap: 4px;
+    }
+
+    .btn{
+        font-size: 14px;
+    }
+
+
+    .Popular{
+        display: none;
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 400px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 10px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 500px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 500px;
+    }   
+
+    .brend{
+        height: auto;
+    }
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        grid-template-rows: repeat(4,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg__text{
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .ggg__paragrf{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .flexx__pargafr{
+        width: 300px;
+    }
+
+    .ggg{
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        width: 400px;
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+@media(max-width:500px){
+    .container{
+        padding: 0 ;
+        width: 500px;
+        max-width: 500px;
+
+    }
+
+    .card3__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 50px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .box__h1{
+        font-size: 40px;
+    }
+
+    .header__nav{
+        gap: 4px;
+    }
+
+    .btn{
+        font-size: 14px;
+    }
+
+
+    .Popular{
+        display: none;
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 400px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 400px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 10px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 380px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 400px;
+    }   
+
+    .login__btn{
+        padding: 20px 40px;
+    }
+
+    .brend{
+        height: auto;
+    }
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        grid-template-rows: repeat(4,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg__text{
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .ggg__paragrf{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .flexx__pargafr{
+        width: 300px;
+    }
+
+    .ggg{
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        width: 400px;
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .footer__flex{
+        height: auto;
+        display: block;
+    }
+
+    .footer__flexx{
+        padding: 30px;
+        display: none;
+    }
+
+    .jh{
+        display: block;
+    }
+}
+
+
+
+@media(max-width:450px){
+    .container{
+        padding: 0 ;
+        width: 450px;
+        max-width: 450px;
+
+    }
+
+    .brend__text--pargarf{
+        display: none;
+    }
+
+    .card3__cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 30px; 
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 30px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .box__h1{
+        font-size: 40px;
+    }
+
+    .header__nav{
+        gap: 4px;
+    }
+
+    .btn{
+        padding: 20px 20px;
+        font-size: 14px;
+    }
+
+    .fds{
+        width: 380px;
+    }
+
+    .card3__texts--h3{
+        font-size: 22px;
+    }
+
+
+    .Popular{
+        display: none;
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 380px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 380px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 10px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 380px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 400px;
+    }   
+
+    .login__btn{
+        padding: 20px 40px;
+    }
+
+    .brend{
+        height: auto;
+    }
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        grid-template-rows: repeat(4,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg__text{
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .ggg__paragrf{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .flexx__pargafr{
+        width: 300px;
+    }
+
+    .ggg{
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        width: 400px;
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .footer__flex{
+        height: auto;
+        display: block;
+    }
+
+    .footer__flexx{
+        padding: 30px;
+        display: none;
+    }
+
+    .jh{
+        display: block;
+    }
+}
+
+@media(max-width:400px){
+    .container{
+        padding: 0 ;
+        width: 400px;
+        max-width: 400px;
+
+    }
+
+    .brend__text--pargarf{
+        display: none;
+    }
+
+    .card3__cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 30px; 
+    }
+
+    .flex2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px; 
+    }
+
+    .header{
+        padding: 30px;
+    }
+
+    .card3{
+        padding: 0 10px;
+    }
+
+    .imgssss{
+        width: 100%;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .box__h1{
+        font-size: 40px;
+    }
+
+    .header__nav{
+        gap: 4px;
+    }
+
+    .btn{
+        padding: 15px 10px;
+        font-size: 10px;
+    }
+
+    .fds{
+        width: 380px;
+    }
+
+    .card3__texts--h3{
+        font-size: 22px;
+    }
+
+
+    .Popular{
+        display: none;
+        padding: 100px 50px;
+        height: auto;
+    }
+
+    .qweew{
+        width: 200px;
+    }
+
+    .card3__cards--p2{
+        font-size: 12px;
+    }
+
+    .card3__cards--text{
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .login__paragrf{
+        display: none;
+    }
+
+    .ff{
+        display: flex;
+    }
+
+    .card3__boxs{
+        width: 380px;
+        padding: 50px 40px;
+        margin: auto;
+    }
+
+    .wee{
+        margin: auto;
+        width: 380px;
+        padding: 50px 40px;
+        margin-top: 40px;
+    }
+
+    .card3__box--p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .card3__box--h3{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .card3__box{
+        display: block;
+        align-items: center;
+        
+    }
+
+
+    .footer__text{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 20px;
+    }
+
+    .footer__input{
+        padding: 0 50px;
+    }
+
+    .footer__text{
+        padding: 80px 50px;
+    }
+
+    .footer__flex{
+        padding: 0 50px;
+    }
+
+    .footer__input--input--btn{
+        font-size: 12px;
+    }
+
+    .footer__input--input--btn{
+        padding: 10px 40px;
+    }
+
+    .footer__input--input{
+        width: 100%;
+    }
+
+    .footer__input--text{
+        display: none;
+    }
+
+    .footer__input--text2{
+        display: none;
+    }
+
+    /* hero2 */
+    .flexs{
+        display: block;
+    }
+
+    .hero2{
+        height: auto;
+    }
+
+    .hero2__box{
+        display: block;
+        padding: 170px;
+    }
+
+    .hero2__texts{
+        display: none;
+        gap: 20px;
+    }
+
+    .hero2__texts--h3{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .hero2__texts--p{
+        width: 200px;
+    }
+
+    .hero2__box--h3{
+        width: 380px;
+        font-size: 20px;
+    }
+
+
+    /* choose */
+    .choose__flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+    }
+    
+
+    /* brend */
+    .header__nav--link{
+        display: none;
+    }
+
+    .gff{
+        display: block;
+    }
+
+    .login{
+        margin: auto;
+        margin-bottom: 40px;
+        width: 400px;
+    }   
+
+    .login__btn{
+        padding: 20px 40px;
+    }
+
+    .brend{
+        height: auto;
+    }
+
+    .brend__text{
+        width: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brend__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .brend__text--text{
+        display: none;
+    }
+
+    .brend__cards{
+        width: 180px;
+    }
+
+    /* card2 */
+    .card2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        grid-template-rows: repeat(4,1fr);
+        gap: 40px;
+    }
+
+    .fd{
+        display: none;
+    }
+
+    .cars2__flex{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* hero */
+    .hero{
+        display: block;
+    }
+
+    .ggg__text{
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .ggg__paragrf{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .flexx__pargafr{
+        width: 300px;
+    }
+
+    .ggg{
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }
+
+    .hg{
+        width: 400px;
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .milliyon{
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .footer__flex{
+        height: auto;
+        display: block;
+    }
+
+    .footer__flexx{
+        padding: 30px;
+        display: none;
+    }
+
+    .jh{
+        display: block;
     }
 }
 
