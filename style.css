@@ -72,51 +72,46 @@
     color: #fff;
     box-shadow: 0 0 20px #ffffff42;
 }
+
+
 .contact-item {
     position: relative;
-    display: inline-block; /* Element o'ziga yarasha joy egallashi uchun */
+    display: inline-block; 
 }
 
-/* Asosiy konteyner */
 #user-info {
     position: absolute;
-    top: 100%; /* Contact-item ning naq tagidan boshlanadi */
+    top: 100%; 
     left: 0;
     width: 350px;
-    background: transparent; /* Fonni shaffof qildik, kartalar o'zi oq bo'ladi */
     display: none;
-    z-index: 999;
-    padding-top: 15px; /* Contact va card orasidagi masofa */
-    
-    /* Scroll va hidden xususiyatlarini olib tashladik */
-    overflow: visible; 
+    z-index: 1;
+    padding-top: 35px; 
 }
 
 .contact-item:hover #user-info {
     display: block;
 }
 
-/* Har bir foydalanuvchi kartasi (Card) */
+
 .user-card {
     background: white;
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 15px;
-    margin-bottom: 20px; /* Kartalar orasidagi masofa */
+    margin-bottom: 20px; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .user-card:last-child {
-    margin-bottom: 0; /* Oxirgi kartadan keyin ortiqcha joy qolmasligi uchun */
+    margin-bottom: 0; 
 }
 
 .user-card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.02);
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
-/* Ichki elementlar dizayni */
 .card-header {
     display: flex;
     align-items: center;
@@ -130,14 +125,12 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    object-fit: cover;
     border: 2px solid #3498db;
 }
 
 .card-body p {
     margin: 6px 0;
     font-size: 14px;
-    line-height: 1.4;
     color: #444;
 }
 
